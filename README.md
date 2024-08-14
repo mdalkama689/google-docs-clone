@@ -42,3 +42,9 @@ npm i
 for backend:
 cd server
 npm i
+create a .env file in root 
+and add this
+MONGO_URI = mongouri
+PORT = 5000
+CLIENT_URL = http://localhost:3000
+JWT_SECRET_KEY = jwtsecretkey
